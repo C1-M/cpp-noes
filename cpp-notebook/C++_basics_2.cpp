@@ -7,73 +7,73 @@ C++Ö§³ÖÔÚÍ¬Ò»×÷ÓÃÓòÖĞ³öÏÖÍ¬Ãûº¯Êı£¬µ«ÊÇÒªÇóÕâĞ©Í¬Ãûº¯ÊıµÄĞÎ²Î²»Í¬£¬¿ÉÒÔÊÇ²ÎÊı¸öÊ
 Ãûº¯ÊıµÄ¡£
 */
 
-#include<iostream>
-using namespace std;
-
-// 1¡¢²ÎÊıÀàĞÍ²»Í¬
-int Add(int left, int right) {
-	cout << "int Add(int left, int right)" << endl;
-	return left + right;
-}
-
-double Add(double left, double right) {
-	cout << "double Add(double left, double right)" << endl;
-	return left + right;
-}
-
-// 2¡¢²ÎÊı¸öÊı²»Í¬
-void f() {
-	cout << "f()" << endl;
-}
-void f(int a) {
-	cout << "f(int a)" << endl;
-}
-
-// 3¡¢²ÎÊıÀàĞÍË³Ğò²»Í¬
-void f(int a, char b) {
-	cout << "f(int a,char b)" << endl;
-}
-
-void f(char b, int a) {
-	cout << "f(char b, int a)" << endl;
-}
-// ·µ»ØÖµ²»Í¬²»ÄÜ×÷ÎªÖØÔØÌõ¼ş£¬ÒòÎªµ÷ÓÃÊ±Ò²ÎŞ·¨Çø·Ö
-//void fxx()
-//{}
+//#include<iostream>
+//using namespace std;
 //
-//int fxx()
-//{
-// return 0;
+//// 1¡¢²ÎÊıÀàĞÍ²»Í¬
+//int Add(int left, int right) {
+//	cout << "int Add(int left, int right)" << endl;
+//	return left + right;
 //}
-
-// ÏÂÃæÁ½¸öº¯Êı¹¹³ÉÖØÔØ
-// f()µ«ÊÇµ÷ÓÃÊ±£¬»á±¨´í£¬´æÔÚÆçÒå£¬±àÒëÆ÷²»ÖªµÀµ÷ÓÃË­
-// ¹¹³Éº¯ÊıÖØÔØ£¬f1(); //µ÷ÓÃÆçÒå
-void f1() {
-	cout << "f()" << endl;
-}
-
-void f1(int a = 10) {
-	cout << "f(int a)" << endl;
-}
-
-int main() {
-
-	Add(10, 20);
-	Add(10.1, 20.2);
-
-	f();
-	f(10);
-
-	f(10, 'a');
-	f('a', 10);
-
-	f1(1);
-	//f1(); //µ÷ÓÃÆçÒå
-
-	// ×Ô¶¯Ê¶±ğÀàĞÍ£¬±¾ÖÊº¯ÊıÖØÔØ(¼òµ¥ÁË½â)
-	cout << 1;
-	cout << 1.11;
-
-	return 0;
-}
+//
+//double Add(double left, double right) {
+//	cout << "double Add(double left, double right)" << endl;
+//	return left + right;
+//}
+//
+//// 2¡¢²ÎÊı¸öÊı²»Í¬
+//void f() {
+//	cout << "f()" << endl;
+//}
+//void f(int a) {
+//	cout << "f(int a)" << endl;
+//}
+//
+//// 3¡¢²ÎÊıÀàĞÍË³Ğò²»Í¬
+//void f(int a, char b) {
+//	cout << "f(int a,char b)" << endl;
+//}
+//
+//void f(char b, int a) {
+//	cout << "f(char b, int a)" << endl;
+//}
+//// ·µ»ØÖµ²»Í¬²»ÄÜ×÷ÎªÖØÔØÌõ¼ş£¬ÒòÎªµ÷ÓÃÊ±Ò²ÎŞ·¨Çø·Ö
+////void fxx()
+////{}
+////
+////int fxx()
+////{
+//// return 0;
+////}
+//
+//// ÏÂÃæÁ½¸öº¯Êı¹¹³ÉÖØÔØ
+//// f()µ«ÊÇµ÷ÓÃÊ±£¬»á±¨´í£¬´æÔÚÆçÒå£¬±àÒëÆ÷²»ÖªµÀµ÷ÓÃË­
+//// ¹¹³Éº¯ÊıÖØÔØ£¬f1(); //µ÷ÓÃÆçÒå
+//void f1() {
+//	cout << "f()" << endl;
+//}
+//
+//void f1(int a = 10) {
+//	cout << "f(int a)" << endl;
+//}
+//
+//int main() {
+//
+//	Add(10, 20);
+//	Add(10.1, 20.2);
+//
+//	f();
+//	f(10);
+//
+//	f(10, 'a');
+//	f('a', 10);
+//
+//	f1(1);
+//	//f1(); //µ÷ÓÃÆçÒå
+//
+//	// ×Ô¶¯Ê¶±ğÀàĞÍ£¬±¾ÖÊº¯ÊıÖØÔØ(¼òµ¥ÁË½â)
+//	cout << 1;
+//	cout << 1.11;
+//
+//	return 0;
+//}
