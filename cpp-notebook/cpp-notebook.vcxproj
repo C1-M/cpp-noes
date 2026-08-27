@@ -143,6 +143,7 @@
     <ClCompile Include="C++_basics_1.cpp" />
     <ClCompile Include="C++_basics_3.cpp" />
     <ClCompile Include="C++_basics_4.cpp" />
+    <ClCompile Include="C++_basics_5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
