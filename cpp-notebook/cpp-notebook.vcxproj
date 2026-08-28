@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C++_6.cpp" />
     <ClCompile Include="C++_basics_2.cpp" />
     <ClCompile Include="C++_basics_1.cpp" />
     <ClCompile Include="C++_basics_3.cpp" />
