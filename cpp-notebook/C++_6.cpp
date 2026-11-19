@@ -23,20 +23,13 @@
 //	return 0;
 //}
 
+#include <iostream>
+using namespace std;
 
-
-#include <stdio.h>
-#include <string.h>
 int main() {
-	struct Student {
-		int id;
-		char name[50];
-		int score;
-	};
-
-	struct Student stu = { 0 };
-	printf("请输入学号 姓名 分数：");
-	scanf("%d %s %d", stu.id, stu.name, stu.score);
-	printf("学号：%d，姓名：%s，分数：%d", stu.id, stu.name, stu.age, stu.score);
-	return 0;
+    for (int i = 0; i < 100; i++) {
+        cout << " * ";
+    }
+    return 0;
 }
+
